@@ -1,0 +1,191 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("/public/Images/bg.jpg");
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  /* height: 100vh; */
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#topbar {
+  width: 100%;
+  padding: 0;
+  background-color: #9A0A0F;
+  position: fixed;
+  height: 9.4vh;
+  display: flex;
+  align-items: center;
+}
+
+.dash-nav {
+  padding-left: 2%;
+}
+
+.sec1 {
+  display: flex;
+}
+
+.sidebar {
+  background: linear-gradient(90deg, #323232 39.5%, #201e1e);
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  height: 92.5vh;
+  /* margin-top: 150px; */
+}
+
+.sidebar a {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.sidebar nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 218px;
+}
+
+.sidebar nav ul li:hover {
+  padding: 0px;
+  border-radius: 5px;
+  background-color: #323232;
+  border: 1px solid #7E7A7B;
+}
+
+.sidebar nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 0;
+  display: block;
+}
+
+.content {
+  display: block;
+  margin-left: 250px;
+  margin-top: 80px;
+}
+
+.index-sec {
+  width: 22%;
+  padding-left: 10px;
+  background: #333;
+  margin: 2px;
+  padding: 10px;
+  border: 1px solid #727a7b;
+  border-radius: 4px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec2 {
+  width: 50%;
+  background: #333;
+  margin: 2px;
+  padding: 5px;
+  height: 600px;
+  border: 1px solid #727a7b;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: row;
+  align-items: center;
+}
+
+.heading {
+  padding-top: 8px;
+  margin-bottom: 2vh;
+}
+
+.chart {
+  border: 2px solid black;
+  height: 85%;
+  width: 90%;
+  overflow-y: scroll;
+  background-color: white;
+}
+
+.col-7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-select {
+  padding: 10px 10px;
+  width: 15vw;
+}
+
+
+/* Upload Report Page */
+.main-div {
+  display: block;
+  margin-left: 250px;
+  margin-top: 60px;
+}
+
+.main {
+  flex-grow: 1;
+  color: black;
+  padding: 19px 90px 17px 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.upload-section {
+  background-color: #333;
+  border: 1px solid #727a7b;
+  border-radius: 4px;
+  padding: 20px;
+  border-radius: 4px;
+  width: 900px;
+  height: 550px;
+  margin-top: 20px;
+  padding-top: 4%;
+}
+
+.upload-section h1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 6px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0px;
+  color: white;
+}
+
+.form-group input[type="date"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.up-img {
+  /* height: 2vh; */
+  /* width: 20vw; */
+  margin-left: 36%;
+  margin-top: 1%;
+  padding: 0;
+}
+
+

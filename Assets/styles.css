@@ -1,0 +1,154 @@
+body {
+  background-image: url("/public/Images/bg.jpg");
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+/* .outerDiv{
+  padding-top: 4.6%;
+} */
+/* nav */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #9A0A0F;
+  padding: 19px 30px 17px 30px;
+  color: white;
+  font-weight: 700;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* side menu */
+.sidebar {
+  background: linear-gradient(90deg, #323232 39.5%, #201e1e);
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  height: 148svh;
+  margin-top: 0px;
+}
+
+.sidebar a {
+  font-size: 12px;
+  font-weight: bold;
+
+}
+
+.sidebar nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 218px;
+}
+
+.sidebar nav ul li:hover {
+  padding: 0px;
+  border-radius: 5px;
+  background-color: #323232;
+  border: 1px solid #7E7A7B;
+}
+
+.sidebar nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 0;
+  display: block;
+}
+
+
+/* Main Form  */
+.main-form {
+  background-color: #302c2c;
+  margin-right: 20px;
+  border: 1px solid #7E7A7B;
+  border-radius: 4px;
+  margin-top: 20px;
+  box-sizing: border-box;
+  padding: 30px 0px 10px 0.5%;
+}
+
+.main-inputs {
+  padding-left: 20px;
+}
+
+.main-inputs label,
+input[type="text"] {
+  margin: 20px;
+}
+
+.main-inputs label,
+input[type="date"] {
+  margin: 20px;
+}
+
+.inputState {
+  margin: 20px;
+  margin-top: 20px;
+}
+
+.main-inputs label {
+  color: white;
+}
+
+.data-container {
+  margin-top: 20px;
+}
+
+.data-controls button {
+  background-color: #9A0A0F;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.data-controls button:hover {
+  background-color: #a83226;
+}
+
+.data-table {
+  color: white;
+  margin-top: 10px;
+}
+
+.data-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.data-table th,
+.data-table td {
+  text-align: left;
+  padding: 14px;
+  border-bottom: 1px solid #fff;
+}
+
+.data-table th {
+  background-color: #9A0A0F;
+}
+
+.data-table td {
+  background-color: white;
+  color: black;
+  border: 1px solid #000000;
+  padding: 6px;
+  text-align: left;
+}
+
+.bValid_btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.validForm_btns{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 13px;
+}
