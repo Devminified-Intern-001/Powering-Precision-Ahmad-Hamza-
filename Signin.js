@@ -61,6 +61,7 @@ const LoginComponent = () => {
         <div className="loginForm" style={{ border: '1px solid rgb(142, 135, 135)' }}>
           <div className="formHeader">
             <p>WELCOME</p>
+            <p>Sign in form</p>
           </div>
           <div className="formBody">
             <div className="loginIcon">
