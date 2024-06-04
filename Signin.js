@@ -57,7 +57,7 @@ const LoginComponent = () => {
       </div>
       <div className="main">
         <img src="./Images/Jazz-logo.png" alt="" />
-        <p>Jazz Logo</p>
+        <p>Jazz Icon</p>
         <div className="loginForm" style={{ border: '1px solid rgb(142, 135, 135)' }}>
           <div className="formHeader">
             <p>WELCOME</p>
